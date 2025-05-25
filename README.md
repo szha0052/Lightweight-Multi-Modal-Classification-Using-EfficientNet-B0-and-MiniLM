@@ -46,4 +46,5 @@ The folder `COMP5329_A2` includes:
 - `COMP5329_A2_All.ipynb`: Full training + inference pipeline
 - `COMP5329_A2_Pre.ipynb`: Inference-only script
 - `Predicted_labels.csv`: Submission output
+
 ![Step 4: File Content Checking](./Figure4.png)
