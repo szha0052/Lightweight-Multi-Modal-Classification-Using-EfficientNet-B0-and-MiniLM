@@ -2,49 +2,34 @@
 # Lightweight Multi-Modal Classification Using EfficientNet-B0 and MiniLM
 
 ## 🛠️ Running Instructions
+To run the project:
 
-### Step 1: Copy Dataset and Model Files to Google Drive
-
-1. Open this shared Google Drive link:  
+1. 1. Open this shared Google Drive link:  
    👉 [COMP5329_A2 Shared Folder](https://drive.google.com/drive/folders/1E8OcgpVay_1RB-XrBSOKkBDs9LacFC-6?usp=drive_link)
 
 2. Move the folder `COMP5329_A2` into your own Google Drive under `MyDrive`.  
    You can do this by dragging it as shown below:
+   ![Action I](Figure1.png)
+   ![Action II](Figure2.png)
+   ![Action III](Figure3.png)
 
-   ![Step 1: Move folder to MyDrive](./Figure1.png)
-   ![Step 2: Move folder to MyDrive2](./Figure2.png)
+2. The folder contains:
+   - `COMP5329S1A2Dataset`: raw input and training data
+   - `process`: preprocessed intermediate files
+   - `model`: final saved model weights
 
-3. After moving, you should see the folder inside your `MyDrive`:
+   ![File Content](Figure4.png)
 
-   ![Step 3: Locate in your Drive](./Figure3.png)
----
+3. Visit the GitHub repository:  
+   https://github.com/szha0052/Lightweight-Multi-Modal-Classification-Using-EfficientNet-B0-and-MiniLM
 
-### Step 2: Open and Run Code in Google Colab
+4. Open both notebooks: `COMP5329_A2_All.ipynb` and `COMP5329_A2_Pre.ipynb`, and click "Open in Colab" to run them.
 
-1. Visit the GitHub repository:  
-   🔗 https://github.com/szha0052/Lightweight-Multi-Modal-Classification-Using-EfficientNet-B0-and-MiniLM
-
-2. Open the following notebooks:
-   - `COMP5329_A2_All.ipynb` for full pipeline
-   - `COMP5329_A2_Pre.ipynb` for inference only
-
- 
-
-3. Click “Open in Colab” and run the first code cell to mount your Google Drive:
-
-  
+5. After verifying Google Drive access in the first code cell, you can execute all remaining blocks.
 
 ---
 
-### 📂 Folder Contents
+### Notebook Descriptions
 
-The folder `COMP5329_A2` includes:
-
-- `COMP5329S1A2Dataset`: Raw input and training data
-- `process`: Preprocessed files
-- `model`: Saved model checkpoints  
-- `COMP5329_A2_All.ipynb`: Full training + inference pipeline
-- `COMP5329_A2_Pre.ipynb`: Inference-only script
-- `Predicted_labels.csv`: Submission output
-
-![Step 4: File Content Checking](./Figure4.png)
+- `COMP5329_A2_All.ipynb`: Full pipeline including data preprocessing, model training, evaluation, ablation analysis, and hyperparameter tuning.
+- `COMP5329_A2_Pre.ipynb`: Loads the trained model and makes predictions on the test set.
