@@ -11,12 +11,12 @@
 2. Move the folder `COMP5329_A2` into your own Google Drive under `MyDrive`.  
    You can do this by dragging it as shown below:
 
-   ![Step 1: Move folder to MyDrive](./图片1.png)
+   ![Step 1: Move folder to MyDrive](./Figure1.png)
+   ![Step 2: Move folder to MyDrive2](./Figure2.png)
 
 3. After moving, you should see the folder inside your `MyDrive`:
 
-   ![Step 2: Located inside MyDrive](./图片2.png)
-
+   ![Step 3: Locate in your Drive](./Figure3.png)
 ---
 
 ### Step 2: Open and Run Code in Google Colab
@@ -28,11 +28,11 @@
    - `COMP5329_A2_All.ipynb` for full pipeline
    - `COMP5329_A2_Pre.ipynb` for inference only
 
-   ![Step 3: Locate and open Colab notebooks](./图片3.png)
+ ![Step 4: File Content Checking](./Figure4.png)
 
 3. Click “Open in Colab” and run the first code cell to mount your Google Drive:
 
-   ![Step 4: Run in Colab](./图片4.png)
+  
 
 ---
 
